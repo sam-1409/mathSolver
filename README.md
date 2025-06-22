@@ -45,3 +45,12 @@ This project is a **real-time hand gesture-based calculator** that lets users in
 | Right index < left index (spatial)  | Exit program    |
 
 > Gestures are detected based on hand landmark positions and finger states.
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/sam-1409/mathSolver.git
+cd mathSolver
+pip install -r requirements.txt
