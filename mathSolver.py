@@ -30,13 +30,13 @@ def detectGesture(hand1_data, hand2_data):
         return "/"
     elif (f1==2 and f2==2):
         return "del"
-    elif (f1==1 and f2==5) or (f1==5 and f2==1):
+    elif (f1+f2==6):
         return "6"
-    elif (f1==2 and f2==5) or (f1==5 and f2==2):
+    elif (f1+f2==7):
         return "7"
-    elif (f1==3 and f2==5) or (f1==5 and f2==3):
+    elif (f1+f2==8):
         return "8"
-    elif (f1==4 and f2==5) or (f1==5 and f2==4):
+    elif (f1+f2==9):
         return "9"
     elif f1==0 and f2==0:
         return "="
